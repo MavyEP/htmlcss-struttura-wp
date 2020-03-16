@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: DarkGoldenRod;
+
+}
+header {
+        max-width: 1280px;
+        height: 220px;
+        margin: auto;
+        position: relative;
+        background-image: url(immagini/headersfondo.jpg);
+        background-size: cover;
+        border: 13px solid white;
+        margin-top: 20px;
+}
+
+#layover {
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.3);
+}
+
+ .testotitolo {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+
+.testotitolo h1 {
+    border-left: 3px solid white;
+    padding-left: 50px;
+    border-right: 3px solid white;
+    padding-right: 50px;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.testotitolo p {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    line-height: 1;
+
+}
+
+#menu {
+    max-width: 1280px;
+    height: 39px;
+    margin: auto;
+    position: relative;
+    background-color: darkgray;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    border-right: 2px groove gray;
+    padding: 11px;
+    padding:11px;
+
+
+}
+
+#menu a:last-child {
+    text-decoration: none;
+    color: white;
+    border-right: 0px;
+    padding: 11px;
+    padding:11px;
+}
+
+
+
+.linkmenu {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+main{
+    max-width: 1280px;
+    height: 100vh;
+    margin: auto;
+    
+
+    background-color: gray;
+}
+
+
+
+#leftside h3{
+    padding: 10px 15px;
+    font-size:23px;
+}
+
+#leftside a:last-child {
+    padding-bottom: 25px;
+}
+
+#leftside a {
+    display: block;
+    padding: 7px 25px;
+
+
+}
+
+.contenuto{
+    background-color: yellow;
+   margin: 10px 25px;
+   width: 550px;
+    float:left;
+
+}
+#leftside {
+    float: left;
+    width: 300px;
+    margin: 10px 20px;
+    background-color: lightblue;
+
+}
+#rightside{
+    float: right;
+    width: 300px;
+    margin: 10px 20px;
+    background-color: lightblue;
+    height: 60px;
+    position: relative;
+}
+
+#inputs {
+
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+
+
+
+}
+#rightside input {
+    background-color: lightgray;
+}
+
+#buttom{
+    float: right;
+    padding-top: 19px;
+    padding-right: 70px;
+
+}
+#buttom button{
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.titoloprimaetichatte img {
+    height: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.titoloprimaetichatte span{
+    font-size: 17px;
+    font-family: 'Bellota Text', cursive;
+}
+.titoloprimaetichatte h4 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 17px;
+    padding-bottom: 10px;
+    line-height: 1;
+    padding-top: 15px;
+
+}
+.titoloprimaetichatte a {
+    color: green;
+    font-family: 'Bellota Text', cursive;
+    font-size: 15px;
+}
+#immaginidicontenuto  {
+    display: block;
+    padding-top: 15px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.contenuto p {
+    font-family: 'Bellota Text', cursive;
+    padding:10px 10px 10px 20px;
+    border-bottom: 2px solid gray;
+
+}
+
+footer{
+
+}
