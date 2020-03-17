@@ -65,18 +65,18 @@ header {
     padding:11px;
 }
 
-#menu a:hover{
-    border-left: 2px solid OldLace;
-    border-right: 2px solid OldLace;
-    background-color: #666666;
-}
-
 #menu a:last-child {
     text-decoration: none;
     color: OldLace;
     border-right: 0px;
     padding: 11px;
     padding:11px;
+}
+
+#menu a:hover{
+    border-left: 2px solid OldLace;
+    border-right: 2px solid OldLace;
+    background-color: #666666;
 }
 
 .linkmenu {
