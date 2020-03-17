@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: DarkGoldenRod;
+    background-image: url(immagini/sfondomain.jpg);
+    background-size: cover;
 }
 header {
     max-width: 1280px;
@@ -21,7 +22,7 @@ header {
 #layover {
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
  .testotitolo {
@@ -53,20 +54,26 @@ header {
     height: 39px;
     margin: auto;
     position: relative;
-    background-color: darkgray;
+    background-color: #504741;
 }
 
 #menu a {
     text-decoration: none;
-    color: white;
+    color: OldLace;
     border-right: 2px groove gray;
     padding: 11px;
     padding:11px;
 }
 
+#menu a:hover{
+    border-left: 2px solid OldLace;
+    border-right: 2px solid OldLace;
+    background-color: #666666;
+}
+
 #menu a:last-child {
     text-decoration: none;
-    color: white;
+    color: OldLace;
     border-right: 0px;
     padding: 11px;
     padding:11px;
@@ -83,12 +90,12 @@ main{
     width: 1280px;
     height: 1320px;
     margin: auto;
-    background-color: gray;
 }
 
 #leftside h3{
     padding: 10px 15px;
     font-size:23px;
+    color: OldLace;
 }
 
 #leftside a:last-child {
@@ -96,13 +103,15 @@ main{
 }
 
 #leftside a {
+    color: white;
     display: block;
     padding: 7px 25px;
+    text-decoration: none;
 }
 
 .contenuto{
-    background-color: yellow;
-    margin: 10px 25px;
+    background-color: oldlace;
+    margin: 10px 60px;
     width: 550px;
     float:left;
 }
@@ -110,17 +119,42 @@ main{
 #leftside {
     float: left;
     width: 300px;
-    margin: 10px 20px;
-    background-color: lightblue;
+    margin: 10px 0px;
+    background-color: #504741;
 }
 
 #rightside{
     float: right;
     width: 300px;
-    margin: 10px 20px;
-    background-color: lightblue;
+    margin: 10px 0px;
+    background-color: #504741;
     height: 60px;
     position: relative;
+}
+
+#rightside2{
+    float: right;
+    width: 300px;
+    margin: 10px 0px;
+    background-color: #504741;
+    height: 130px;
+    position: relative;
+}
+
+#rightside2 p {
+    font-size: 20px;
+    color: OldLace;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#rightside2 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #inputs {
@@ -128,6 +162,8 @@ main{
     padding-top: 20px;
     padding-left: 20px;
 }
+
+
 
 #rightside input {
     background-color: lightgray;
@@ -141,7 +177,7 @@ main{
 
 #buttom button{
     background-color: lightgray;
-    border: 1px solid black;
+    border: 1px solid OldLace;
     border-radius: 4px;
 }
 
@@ -186,15 +222,17 @@ main{
 
 footer{
     height: 60px;
-    background-color: lightblue;
+    background-color: #504741;
     width: 1280px;
     margin: auto;
     margin-bottom: 20px;
 }
 
-footer div {
+.footertext {
     font-family: 'Bellota Text', cursive;
-    float: left;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 #footerp {
@@ -204,4 +242,34 @@ footer div {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+footer h4 {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: oldlace;
+}
+
+#footerleft {
+    float: left;
+}
+
+.footerright {
+    padding-top: 10px;
+    float: right;
+    padding-right: 50px;
+}
+
+.footerright img {
+     height: 40px;
+     margin-left: 20px;
+     border: 2px solid gray;
+     padding: 10px;
+     border-radius: 5px;
+     background-color: white;
+}
+
+#footerp {
+    color: oldlace;
 }
